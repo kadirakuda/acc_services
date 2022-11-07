@@ -33,7 +33,7 @@ function App() {
   //   });
 
   async function searchAPI() {
-    const data = { name: "John" };
+    //  const data = { name: "John" };
     const key = "ZGVjYWMzMTctM2E5MC00OTM2LThmNzktYzkzYzY1YWExNTAxOg==";
     try {
       let response = await fetch(
